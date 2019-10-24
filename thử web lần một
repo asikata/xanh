@@ -1,0 +1,220 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href=box.css rel=stylesheet>
+<style>		
+.class{width:100%;
+height:80px;
+margin-top:60px;
+border-radius: 0px 0px 0px 0px;
+background-color:rgba(76, 175, 80, 0.3) ; }
+.classnone{width:100%;
+height:80px;
+margin-top:60px;
+border-radius: 0px 0px 0px 0px;
+background-color:rgba(76, 175, 80, 0.3) ; }
+foter{width:1000px;
+	height:70px;
+	clear:both;
+	text-align:center;
+	margin:auto;
+	border-radius:30px;
+	background-color:rgba(6, 175, 0, 0.3) ;}
+.dropdown {
+  position: relative;
+		display: inline-block;}
+.dropdown-content {
+
+display: none;
+color:#FFFFFF;
+font-size:25;
+position: relative;
+background-color:#DBDBDB;
+min-width:160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 1px 1px;
+z-index: 1;
+}
+.dropdown:hover .dropdown-content{color:black;
+  display: block;
+border-bottom-right-radius:30px;
+border-bottom-left-radius:30px;
+}
+.drop {
+  position: relative;
+		display: inline-block;}
+.drop-content {
+display: none;
+color:whitesmoke;
+font-size:40;
+position: relative;
+background-color:#000B3C;
+min-width:160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 1px 1px;
+font-size:25;
+z-index: 1;
+}
+.drop:hover .drop-content {
+border-bottom-right-radius:30px;
+border-bottom-left-radius:30px;
+  display: block;
+}
+	</style>
+	<style>
+		body{background-image:url("sear/namor.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#timkiem{width:200px; height:30px;
+		border-radius:60px ;
+		text-align: center;}
+		#timkiem::placeholder{ font-size:15px;
+								color:black;} 
+.topgiaodien{max-Width:1000px;
+	height:60px;
+	padding-top:1px;
+	margin:auto;
+	margin-top:160px;}
+.giaodien{max-Width:1000px;
+	height:900px;
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+	padding-top:1px;
+	margin:auto;;
+	clear:both;
+
+	background-color:rgba(21, 25, 35, 0.61) ;
+	}
+	a:link{color:white;
+	text-decoration: none;}
+	a:hover{color:black;
+	text-decoration: none;}
+	a:visited{color:white;
+	text-decoration: none;}
+	.giaodienn{Width:200px;
+	height:30px;
+	position: absolute;
+	padding:20px 20px;
+	margin:auto;
+	clear:both;
+	font-size:30px;
+	color:white;
+	}
+	</style>
+</head>
+<body>
+	
+<div  class="class">
+<div class="logo"><a href="#"><img src="sear/Spartan2.png" width="180px" height="180px"></a></div>
+<div class="shop"><a href="#">CỬA HÀNG</a></div>
+<div class="news" ><a href="tintuc.html">TIN TỨC</a></div>
+<div class="esport"><a href="nome/litpage/Esport.html">ESPORT</a></div>
+<div class="support"><a href="nome/litpage/Support.html">HỖ TRỢ</a> </div>
+<div class="myacc" >
+<div class="drop">
+<span><a href="#">TÀI KHOẢN</a></span>
+ <div class="drop-content">
+	 <a href="dangnhap.html"<p>Đăng nhập</a>
+<p>Tìm mặt khẩu</p>
+ </div>
+ </div></div>
+<div class="cl"></div>
+<div class="sear">
+	<a href="#">
+		<img src="sear/Untitled-1.png" width="50px" height="60px"/></a></div>
+	<div class="timkiem"><input id="timkiem" type="text" placeholder="Vật phẩm trang bị"></div>
+</div>
+<div class="topgiaodien">
+<div class="class2">
+<div class="armornew">
+				<div class="dropdown">
+  <span><a href="#">Trang bị mới nhất</a></span>
+  <div class="dropdown-content">
+	  <a href="#"><p>Giáp</p></a>
+<p>Súng</p>
+<p>Phụ Kiện</p>
+ </div>
+ </div>
+ </div>
+<div class="armor">
+<div class="dropdown">
+<span><a href="#">Trang bị</a> </span>
+<div class="dropdown-content">
+<p>Giáp</p>
+<p>vũ khí</p></div></div></div>
+<div class="vehicle">
+<div class="dropdown">
+<span><a href="#">Phương tiện</a> </span> 
+<div class="dropdown-content">
+<p>Battleship </p>
+<p>Battlecars</p>
+<p>Xe đạp</p></div></div></div>
+<div class="material">
+<div class="dropdown">
+<span><a href="#">Nguyên liệu</a> </span>
+<div class="dropdown-content">
+<p>Thép thô</p>
+<p>Động cơ</p></div></div>
+</div>
+<div class="pet"><div class="dropdown">
+<span><a href="#">Thú cưng</a> </span>
+<div class="dropdown-content">
+<p>Thú nuôi</p>
+<p>Siêu thú</p></div></div></div>	
+</div>
+	<div class="giaodien">
+		<div class="b"><img src="sear/tank.png" width="600" height="300"></div>
+		<div class="b2"> <table class="table"> 
+  <tr>
+	  <th colspan="2"> <div class="tb">  Thông số cơ bản</div> </th>
+  </tr>
+  <tr>
+	  <td><div class="tb"> Số tiền</div></td>
+	  <td><div class="tb"> 100k$</div></td>
+  </tr>
+  <tr>
+    <td><div class="tb">Pháo </div></td>
+	  <td><div class="tb">TD-32</div></td>
+  </tr>
+  <tr>
+    <td><div class="tb">Giáp </div></td>
+	  <td><div class="tb">MTG-11</div></td>
+  </tr>
+  <tr>
+    <td><div class="tb">Động cơ</div></td>
+	  <td><div class="tb"> MA enigeen TA-154M1</div></td>
+  </tr>
+			<tr>
+    <td><div class="tb">Bánh xe</div></td>
+	  <td><div class="tb"> AMN-53A1</div></td>
+  </tr>
+			<tr>
+    <td><div class="tb">Súng phụ </div></td>
+	  <td><div class="tb">M11 mangun</div></td>
+  
+  </tr>
+			</table>  </div>
+<div class="c"><img src= "sear/car.png" width="300" height="150">
+<div class="a"> Warthog:15k$<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+<div class="c"><img src= "sear/tau3.png" width="300" height="150">
+<div class="a"> Tàu chién trinh sát:155k$<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+<div class="c"><img src= "sear/xed.png" width="300" height="150">
+<div class="a"> Xe đạp: 5k$<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+<div class="c"><img src= "sear/gun1.png" width="300" height="150">
+<div class="a"> Súng laze-5dcv:100K$<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+<div class="c"><img src= "sear/gun11.png" width="300" height="150">
+<div class="a"> Súng laze-DT52:155k$<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+<div class="c"><img src= "sear/car.png" width="300" height="150">
+<div class="a"> "Warthog:15k $""<a href="#"><img src="sear/giohang.png" width="30" height="30"></a></div></div>
+	</div>
+	<br/>
+		<div class="foter"> ©2019 BLIZZARD ENTERTAINMENT,<br/>
+			INC. TOUS DROITS RÉSERVÉS.<br/>
+Toutes les marques citées appartiennent à leurs propriétaires respectifs.
+CONFIDENTIALITÉ EN LIGNEINFORMATIONS LÉGALESMENTIONS LÉGALESCOOKIES </div>
+<button class="buton"><a href="#top" style="color: white">TOP</a></button></div>
+
+</body>
+</html>
